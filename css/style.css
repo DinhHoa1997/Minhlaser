@@ -1,6 +1,6 @@
 :root {
-  --maincolor: #317bb3;
-  --subcolor: #16588a;
+  --maincolor: #8e0000;
+  --subcolor: #AEB5C5;
   --textcolor:#333;
   --fontmain: Lato;
   --fontmain-b: Lato-B;
@@ -1341,7 +1341,7 @@ border: 1px solid var(--maincolor);
     bottom: 40px;
     left: 10%;
     color: #FFF;
-    z-index: 3;
+    z-index: 3 ;
 }
 
   #slide_home
@@ -1845,7 +1845,7 @@ background-size: auto;
 .homeduan-name{
   padding: 10px;
   color: #FFF;
-  background-color: var(--subcolor);
+  background-color: var(--maincolor);
 }
 
 .homenews-wrapper
@@ -2031,7 +2031,9 @@ color: #838383;
 }
 .homefeedback-wrapper
 {
-  background-color: #5fc6c147;
+  
+  background-color: #e9e9e9;
+
   
 }
 .grid-newshot {
